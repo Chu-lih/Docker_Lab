@@ -1,3 +1,4 @@
 # Ignore generated artifacts
 artifacts/*
 !artifacts/.gitkeep
+.DS_Store
