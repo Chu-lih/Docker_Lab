@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-02-14T05:38:05.518452+00:00",
+  "dataset": "breast_cancer",
+  "samples": 569,
+  "features": 30,
+  "test_size": 0.2,
+  "seed": 42,
+  "model": "RandomForestClassifier",
+  "params": {
+    "n_estimators": 200,
+    "max_depth": null
+  },
+  "metrics": {
+    "accuracy": 0.956140350877193,
+    "f1_macro": 0.9526381387619444
+  },
+  "artifacts": {
+    "model_path": "/app/artifacts/model.pkl",
+    "report_path": "/app/artifacts/report.json"
+  }
+}
